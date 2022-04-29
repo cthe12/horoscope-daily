@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+      background: midnightblue;
+      color: mediumseagreen;
+  }
+  h1 {
+      font-size: 140px;
+  }
+  h2 {
+      font-size: 30px;
+  }
+  .main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .horoscope {
+      display: grid;
+      place-items: center;
+      color: yellow;
+  }
+  
+  input {
+      border: 1px solid black;
+      border-radius: 6px;
+      height: 30px;
+      margin-bottom: 40px;
+      width: 25%;
+  }
+ 
+  footer {
+      display: flex;
+      justify-content: space-around;
+      border-top: 6px solid white;
+      width: 100%;
+      padding: 10px 15px;
+  }
+  button {
+      font-weight: 500;
+      cursor: pointer;
+      background: white;
+      height: 45px;
+      border: 1px solid black;
+      border-radius: 5px;
+      padding: 10px;
+      box-sizing: border-box;
+      align-items: center;
+  }
+  button:hover {
+      background: yellow;
+  }
